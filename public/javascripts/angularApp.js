@@ -1,40 +1,46 @@
-'use strict';
 
 
-// 
-// angular.module('loadernews', ['ui.router'])
-//     .config(['$stateProvider', '$urlRouterProvider',
-//         function($stateProvider, $urlRouterProvider) {
-//             $stateProvider
-//                 .state('home', {
-//                     url: '/home',
-//                     templateUrl: '/templates/home.html',
+// use strict;
+
+// ********************************************
+// I'm afraid there are some bugs here .
+
+angular.module('loadernews', ['ui.router'])
+    .config(['$stateProvider', '$urlRouterProvider',
+        function($stateProvider, $urlRouterProvider) {
+            $stateProvider
+                .state('home', {
+                    url: '/home',
+                    templateUrl: '/templates/home.html',
                 
-//                     controller: 'MainCtrl',
-//                     resolve: {
-//                         postPromise: ['posts',
-//                             function(posts) {
-//                                 return posts.getAll();
-//                             }
-//                         ]
-//                     }
-//                 })
-//                 .state('posts', {
-//                     url: '/posts/{id}',
-//                     templateUrl: 'templates/posts.html',
-//                     controller: 'PostsCtrl',
-//                     resolve: {
-//                         post: ['$stateParams', 'posts',
-//                             function($stateParams, posts) {
-//                                 return posts.get($stateParams.id);
-//                             }
-//                         ]
-//                     }
-//                 });
+                    controller: 'MainCtrl',
+                    resolve: {
+                        postPromise: ['posts',
+                            function(posts) {
+                                return posts.getAll();
+                            }
+                        ]
+                    }
+                })
+                .state('posts', {
+                    url: '/posts/{id}',
+                    templateUrl: 'templates/posts.html',
+                    controller: 'PostsCtrl',
+                    resolve: {
+                        post: ['$stateParams', 'posts',
+                            function($stateParams, posts) {
+                                return posts.get($stateParams.id);
+                            }
+                        ]
+                    }
+                });
 
-//             $urlRouterProvider.otherwise('home');
-//         }
-//     ])
+            $urlRouterProvider.otherwise('home');
+        }
+    ]);
+
+// end of bugs 
+// ***************************
 
 var app = angular.module('loadernews', ["ui.router"]);
 app.factory('posts',[function(){

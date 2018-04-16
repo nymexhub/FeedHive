@@ -1,6 +1,6 @@
 {
-  "name": "loader-news",
-  "version": "0.1.1",
+  "name": "NewsLoaderJS",
+  "version": "2.1.2",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
