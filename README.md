@@ -5,7 +5,7 @@
 It's very simple, it's a loader news or feednews, with the chance to make comments and put a finger up in a post; a took a version out of the internet of it, and turned out for me that I found several bugs, still, it's in beta here, but I resolved lots of issues. It's working partially, thought. Remember! you need to run MongoDB here.
 
 #Contribs.
-If you wanna help me out with the bugs, write out here: felipe@nodeio.us - Soft. Engr. & Developer 
+If you wanna help me out with the bugs, write out here: falfonso@res-ear.ch - Soft. Engr. & Developer 
 
 
 #instructions
