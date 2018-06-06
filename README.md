@@ -41,5 +41,4 @@ node-gyp -g
 "port?
 :3000
 
-#Questions? 
- felipe@nodeio.us
+
