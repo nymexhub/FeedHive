@@ -3,7 +3,7 @@
 // use strict;
 
 // ********************************************
-// I'm afraid there are some bugs here .
+// bugs here
 
 angular.module('loadernews', ['ui.router'])
     .config(['$stateProvider', '$urlRouterProvider',
