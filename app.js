@@ -12,8 +12,8 @@ var bodyParser = require('body-parser');
 // MongoDB
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/mydb');
-require('./models/Posts');
-require('./models/Comments');
+require('./models/posts');
+require('./models/comments');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
