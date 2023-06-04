@@ -1,4 +1,4 @@
-# NewsLoader.JS
+# NewsLoader / Loader news or Feednews
 
 #What's this?
 
