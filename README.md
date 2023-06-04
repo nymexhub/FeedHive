@@ -1,4 +1,4 @@
-# NewsLoader
+# NewsLoader / Loader News or Feednews
 
 #What's this?
 
