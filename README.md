@@ -7,10 +7,6 @@ NewsLoader / Loader News or Feednews 📰🔄
 
 It's very simple, it's a loader for news or feednews, with the chance to make comments and put a thumbs up 👍 on a post. I took a version from the internet and found several bugs, but I've resolved many of them in this beta version. However, it's still working partially. Remember, you need to have MongoDB installed and running.
 
-## Contribs. 🤝
-
-If you want to help me out with the bugs, reach me at falfonso@res-ear.ch - Software Engineer & Developer 🛠️
-
 ## Instructions 📝
 
 Just run the following commands:
@@ -46,6 +42,12 @@ bson
 node-gyp (globally)
 Port: 3000 🚪
 ```
+
+## Contribs. 🤝
+
+If you want to help me out with the bugs, reach me at falfonso@res-ear.ch - Software Engineer & Developer 🛠️
+
+
 ## MIT License
 
 This project is licensed under the MIT License, which means you are free to use, modify, and distribute it subject to the terms of this license.
