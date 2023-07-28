@@ -18,7 +18,7 @@ Just run the following commands:
 ```bash
 npm install
 npm start
-
+```
 
 That will install the dependencies and start the app. Easy! 🚀
 
@@ -26,25 +26,26 @@ That will install the dependencies and start the app. Easy! 🚀
 
 If you encounter any problem during the installation, especially with js-bson, try this:
 
+```
 npm install -g node-gyp
-
+```
 
 Or, alternatively, use Yarn. With Yarn, there should be no problem. 🧶
 
 #### Github instructions 🐙
-
+```
 git clone https://github.com/mongodb/js-bson.git
 cd js-bson
 npm install
 node-gyp rebuild
-
+```
 Also, don't forget to install the following correctly and run up MongoDB:
-
+```
 mongoose
 bson
 node-gyp (globally)
 Port: 3000 🚪
-
+```
 ## MIT License
 
 This project is licensed under the MIT License, which means you are free to use, modify, and distribute it subject to the terms of this license.
