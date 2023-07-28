@@ -5,6 +5,11 @@ NewsLoader / Loader News or Feednews 📰🔄
 
 It's very simple, it's a loader for news or feednews, with the chance to make comments and put a thumbs up 👍 on a post. I took a version from the internet and found several bugs, but I've resolved many of them in this beta version. However, it's still working partially. Remember, you need to have MongoDB installed and running.
 
+[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green.svg)](https://opensource.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D%2010-brightgreen.svg)](https://nodejs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+
 #### Instructions 📝
 
 Just run the following commands:
