@@ -2,7 +2,6 @@
 # FeedHive 🐝
 
 NewsLoader / Loader News or Feednews 📰🔄
-
 It's very simple, it's a loader for news or feednews, with the chance to make comments and put a thumbs up 👍 on a post. I took a version from the internet and found several bugs, but I've resolved many of them in this beta version. However, it's still working partially. Remember, you need to have MongoDB installed and running.
 
 #### Instructions 📝
@@ -16,8 +15,7 @@ npm start
 
 That will install the dependencies and start the app. Easy! 🚀
 
-Notes 📌
-
+#### Notes 📌
 If you encounter any problem during the installation, especially with js-bson, try this:
 
 ```
@@ -26,8 +24,7 @@ npm install -g node-gyp
 
 Or, alternatively, use Yarn. With Yarn, there should be no problem. 🧶
 
-Github instructions 🐙
-
+#### Github instructions 🐙
 ```
 git clone https://github.com/mongodb/js-bson.git
 cd js-bson
@@ -48,8 +45,9 @@ Port: 3000 🚪
 If you want to help me out with the bugs, reach me at falfonso@res-ear.ch - Software Engineer & Developer 🛠️
 
 
-## MIT License
+#### MIT License
 This project is licensed under the MIT License, which means you are free to use, modify, and distribute it subject to the terms of this license.
+
 #### Permissions
 
 - You are allowed to use this project for commercial or personal purposes.
